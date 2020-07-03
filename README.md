@@ -20,6 +20,10 @@ There are 2 types of Java Redis clients namely
 - Uses Master Slave concept.
 - Only master can take writes
 
+#MessageBroker
+
+- Redis can also be used as Message Broker with Publish and Subscribe
+
 #Steps
 
 1. Create a Jedis Connection Fcatory and set it to the RedisTemplate
