@@ -3,7 +3,7 @@ Spring Boot App connecting to Redis Database for CRUD operations
 
 Redis is used as a database for CRUD operations in this application
 
-Preqequisites
+#Preqequisites
 
 1. Download and install Redis in local machine
 2. After unzipping the redis jar, open redis-server.exe file to start the redis server. Redis runs on port 6379 on localhost
@@ -11,7 +11,7 @@ Preqequisites
 
 There are 2 types of Java Redis clients namely
 
-1. Jedis (Synchronous and single threaded. Easy to use
+1. Jedis (Synchronous and single threaded. Easy to use)
 2. Lettuce ( uses asynchronous and reactive API. Multithreaded. difficult to use)
 
 #Replication
